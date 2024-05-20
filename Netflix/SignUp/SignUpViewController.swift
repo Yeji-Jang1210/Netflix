@@ -59,8 +59,9 @@ class SignUpViewController: UIViewController {
         
         signupButton.backgroundColor = .white
         signupButton.setTitle("회원가입", for: .normal)
+        signupButton.titleLabel?.font = .systemFont(ofSize: 15, weight: .heavy)
         signupButton.setTitleColor(.black, for: .normal)
-        signupButton.layer.cornerRadius = 15
+        signupButton.layer.cornerRadius = 10
         
         
         //그 외
